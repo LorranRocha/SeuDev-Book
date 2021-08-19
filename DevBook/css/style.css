@@ -1,0 +1,224 @@
+/*Importar Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap');
+
+/*Default*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+span,p{
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    list-style: none;
+    
+}
+
+li i{
+    margin-right: 1em;
+    color: #5CB377;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Quicksand', sans-serif;
+}
+
+html{
+    width: 100%;
+}
+
+body{
+    background-color: #fff;
+}
+
+/*Barra Navegação*/
+nav div{
+    padding: 1.3em;
+    margin-left: -1.1em;
+}
+
+nav span{
+    color: #1c1e2e;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+/*Conteudo Inicial*/
+.conteudo-inicial{
+    margin-top: 3em;
+}
+
+.conteudo-inicial h1{
+    color: #1c1e2e;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.conteudo-inicial span{
+    color: #4c527d;
+    font-size: 18px;
+    
+}
+
+.botoes{
+    margin-top: 2em;
+}
+
+.botoes button{
+    padding: 1em;
+    width: 10em;
+    border-radius: 8em;
+}
+
+.btn-comprar span{
+    color: #fff!important;
+}
+
+.btn-saiba{
+    border-color: #ED6524;
+    transition: ease .6s;
+    font-family: 'Roboto', sans-serif;
+    color: #ED6524;
+}
+
+
+.btn-saiba:hover{
+    
+    background-color: #ED6524;
+    border-color: #ED6524;
+    transition: ease .6s;
+    color: #fff;
+}
+
+blockquote{
+    padding: 1.2em;
+    margin-top: 3em;
+    background: #F6F8FC;
+    border-left: solid 2px #ED6524;
+}
+
+blockquote p{
+    font-size: 16px;
+    color: #4c527d;
+    font-style: italic;
+}
+
+blockquote img{
+    margin-top: 1em;
+    width: 80px;
+    height: 80px;
+    
+    
+}
+
+.testemunho{
+    display: flex;
+}
+
+.livro{
+    width: 100%;
+    margin-top: 3em;
+}
+
+.livro div{
+    float: right;
+    background: #5CB377;
+    padding: 1.6em;
+    margin-bottom: -4em;
+    position: absolute;
+    border-radius: 50em;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.livro span{
+    color: #fff;
+}
+
+.livro img{
+    margin-top: 2em;
+    width: 100%;
+    vertical-align: middle;
+}
+
+/*Benefício*/
+.conteudo-beneficio{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color: #F6F8FC;
+}
+
+.subconteudo{
+    margin-top: 2em;
+}
+
+.subconteudo span{
+    color: #4c527d;
+    font-size: 1.2em;
+}
+
+.lista-beneficios{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
+}
+
+
+.beneficio{
+    text-align: center;
+}
+
+.beneficio i{
+    margin-top: 1em;
+    margin-bottom: .6em;
+    font-size: 3em;
+    color: #ED6524;
+}
+
+.beneficio span{
+    color: #4c527d;
+    font-size: 1em;
+}
+
+/*O que está incluso*/
+.incluso{
+    margin-bottom: 2em;
+    padding-bottom: 5em;
+}
+
+.incluso h2{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.incluso img{
+    width: 100%;
+}
+
+.incluso ul{
+    align-content: center;
+}
+
+.incluso li{
+    font-size: 1.2em;
+    color: #4c527d;
+}
+
+.incluso .lista{
+    display: flex;
+    justify-content: center;
+}
+
+.incluso button{
+    display: flex;
+    align-self: center;
+}
